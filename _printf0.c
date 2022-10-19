@@ -20,7 +20,7 @@ int (*find_function(const char *format))(va_list)
 		{"u", print_unsig},
 		{"o", print_octal},
 		{"x", print_x},
-		{"X", print_X},
+		{"X", print_Hex},
 		{"R", print_rot13},
 		{NULL, NULL}
 	};
